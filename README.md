@@ -17,3 +17,7 @@ The title says it all.
   * 1.2f for floats
   * 1.2m for decimals
 * String, Array, Enum and Class
+
+* Over/Underflowing is not checked by default
+  * Wrap it in `checked{}` to check it.
+* `var` works kinda like `auto` in C++.
