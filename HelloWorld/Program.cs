@@ -34,6 +34,12 @@ namespace HelloWorld
             {
                 Console.WriteLine("Type 'byte' cannot store a value larger than 256");
             }
+
+            Console.WriteLine(10 / 3);
+
+            // Single-line comment
+
+            /* Block comment */
         }
     }
 }

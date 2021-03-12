@@ -24,3 +24,10 @@ The title says it all.
 
 * Implicit, Explicit and non-compatible types conversion
   * `Convert` or `Parse` for non-compatible types conversions.
+
+* Operatiors
+  * Arithmetic: + - * / % ++ --
+  * Comparison: == != > >= < <=
+  * Assignment: = += -+ *= /=
+  * Logical: ! && ||
+  * Bitwise: & |
