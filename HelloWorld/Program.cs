@@ -23,6 +23,17 @@ namespace HelloWorld
 
             Console.WriteLine("{0} {1}", byte.MinValue, byte.MaxValue);
             Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
+
+            try
+            {
+                var numberString = "1234";
+                byte b = Convert.ToByte(numberString);
+                Console.WriteLine(b);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Type 'byte' cannot store a value larger than 256");
+            }
         }
     }
 }

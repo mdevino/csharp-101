@@ -21,3 +21,6 @@ The title says it all.
 * Over/Underflowing is not checked by default
   * Wrap it in `checked{}` to check it.
 * `var` works kinda like `auto` in C++.
+
+* Implicit, Explicit and non-compatible types conversion
+  * `Convert` or `Parse` for non-compatible types conversions.
